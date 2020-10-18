@@ -1,0 +1,302 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'PT Sans', sans-serif;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/***********************************
+          Your Project css start
+***********************************/
+
+/***********************************
+      header-section css start
+***********************************/
+.header-section{
+	width: 100%;
+	padding: 20px 0px;
+	background: #fcdb00;
+}
+
+.header-section .bg-light {
+    background-color: transparent !important;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0px 30px;
+}
+
+.header-section .banner{
+	width: 100%;
+
+}
+
+.header-section .banner .text-inner{
+	width: 100%;
+	padding: 100px 0px;
+}
+.header-section .banner .text-inner h1{
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 42px;
+}
+.header-section .banner .text-inner h4{
+	font-size: 20px;
+	color: #313841;
+	padding: 10px 0px;
+}
+.header-section .banner .text-inner p{
+	font-size: 16px;
+	color: #555555;
+}
+.header-section .banner .text-inner i{
+	font-size: 30px;
+	color: #000;
+	padding: 25px 15px 25px 0px;
+}
+.header-section .banner img{
+	padding: 50px 0px 50px 180px;
+}
+/***********************************
+      header-section css end
+***********************************/
+
+
+/***********************************
+      feature-section css start
+***********************************/
+
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.feature .feature-inner{
+	width: 100%;
+	padding: 20px 0px;
+	text-align: center;
+}
+.feature .feature-inner h2{
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 42px;
+
+}
+.feature .feature-inner p{
+	font-size: 20px;
+	color: #313841;
+}
+.feature .media{
+	width: 100%;
+	padding: 50px 25px;
+}
+.feature .media .fa{
+	font-size: 50px;
+}
+.feature .media .fa:nth-child(4){
+	font-size: 40px;
+}
+
+.feature .media .media-body{
+	margin-left: 20px;
+}
+
+.feature .media .media-body h5{
+	font-size: 22px;
+}
+
+.feature .media .media-body p{
+	font-size: 16px;
+	color: #898989;
+}
+
+/***********************************
+      feature-section css end
+***********************************/
+
+/***********************************
+      footer-section css start
+***********************************/
+
+.footer{
+	width: 100%;
+	padding: 50px 0px;
+	background: #010101;
+}
+.footer .top-footer{
+	width: 100%;
+}
+.footer .top-footer .title{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+}
+
+.footer .top-footer .title h2{
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 700;
+	color: #fcdb00;
+}
+.footer .top-footer .title p{
+	font-size: 20px;
+	line-height: 30px;
+	color: #898989;
+}
+
+.footer .form-inline{
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+.footer .form-inline .form-control{
+	width: 580px;
+	height: 50px
+}
+.footer .form-inline .form-control:focus{
+	box-shadow: none;
+}
+
+.footer .form-inline .btn{
+	height: 50px;
+	width: 125px;
+	background: #fcdb00;
+	border: 1px solid #fcdb00;
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-left: 20px;
+	margin-top: 7px;
+	transition: .5s;
+}
+.footer .form-inline .btn:hover{
+	background: transparent;
+	border: 1px solid #fcdb00;
+	color: #fff;
+}
+
+.footer .social-icon{
+	width: 100%;
+	text-align: center;
+}
+.footer .social-icon ul{
+	width: 100%;
+}
+.footer .social-icon ul li{
+	display: inline-block;
+	list-style:none;
+	padding: 50px 10px;
+}
+.footer .social-icon ul li a{
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+}
+.footer .social-icon ul li a .fa{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border-radius: 10px;
+	background: #fcdb00;
+
+}
+
+
+.footer h4, p{
+	font-size: 16px;
+	color: #fff;
+}
+.footer ul{
+	width: 100%;
+	list-style: none;
+}
+.footer ul li{
+
+}
+.footer ul li a{
+	font-size: 16px;
+	color:#fff;
+}
+/***********************************
+      footer-section css end
+***********************************/
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+/***********************************
+      header-section css start
+***********************************/
+	.header-section .banner .text-inner {
+    width: 100%;
+    padding: 35px 0px;
+	}
+
+	.header-section .navbar-light .navbar-nav .nav-link {
+	    color: #000;
+	    font-size: 14px;
+	    font-weight: 700;
+	}
+
+	.header-section .banner .text-inner i {
+    font-size: 40px;
+    color: #000;
+    padding: 25px 15px 25px 0px;
+	}
+
+	.header-section .banner img {
+    padding: 0px 0px 10px 0px;
+	}
+/***********************************
+      header-section css end
+***********************************/
+
+  
+}
+
